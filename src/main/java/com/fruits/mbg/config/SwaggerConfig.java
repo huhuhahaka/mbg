@@ -12,10 +12,10 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+//是否开启 swagger，正式环境一般是需要关闭的（避免不必要的漏洞暴露！），可根据 springboot 的多环境配置进行设置
+//@ConditionalOnProperty(name = "swagger.enable",  havingValue = "true")
 @Configuration
 @EnableSwagger2
-//是否开启swagger，正式环境一般是需要关闭的（避免不必要的漏洞暴露！），可根据springboot的多环境配置进行设置
-//@ConditionalOnProperty(name = "swagger.enable",  havingValue = "true")
 public class SwaggerConfig {
 
     @Value("${spring.application.name}")

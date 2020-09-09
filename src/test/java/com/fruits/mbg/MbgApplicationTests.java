@@ -1,6 +1,6 @@
 package com.fruits.mbg;
 
-import com.fruits.mbg.config.MyBatisPlusGenerator;
+import com.fruits.mbg.handler.MyBatisPlusGenerator;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

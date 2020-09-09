@@ -1,4 +1,4 @@
-package com.fruits.mbg.config;
+package com.fruits.mbg.handler;
 
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
 import com.baomidou.mybatisplus.generator.AutoGenerator;
